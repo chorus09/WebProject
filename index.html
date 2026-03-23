@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Management Web App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Task Management Web App</h1>
+            <p>Simple application for managing daily tasks</p>
+        </header>
+
+        <section class="task-form">
+            <input type="text" id="taskInput" placeholder="Enter a new task..." />
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+
+        <section class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+        </section>
+
+        <section class="task-list-section">
+            <ul id="taskList" class="task-list"></ul>
+        </section>
+
+        <footer class="footer">
+            <p>Total tasks: <span id="taskCount">0</span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
