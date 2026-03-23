@@ -44,7 +44,7 @@ body {
 .task-form input {
     flex: 1;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #e7e7e7;
     border-radius: 8px;
     font-size: 16px;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 .filter-btn.active {
-    background: #1f3c88;
+    background: #0e1c42;
     color: white;
 }
 
